@@ -1,27 +1,37 @@
 using UnityEngine;
+using UnityEngine.EventSystems; 
 
 public class CarRaycast : MonoBehaviour
 {
     public Camera cam;
-    public float distance = 10f;
-    public CarUIManager uiManager;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+            return;
+            
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit, distance))
+            if (Physics.Raycast(ray, out hit))
             {
-                CarData car = hit.collider.GetComponent<CarData>();
-
-                if (car != null)
+                 if (hit.collider.CompareTag("Car"))
                 {
-                    uiManager.ShowCarDetails(car);
-                }
+                    CarData car = hit.collider.GetComponentInParent<CarData>();
+
+                    if (car != null)
+                    {
+                        CarUIController ui = car.GetComponentInChildren<CarUIController>();
+
+                        if (ui != null)
+                        {
+                            ui.ShowUI(car);
+                        }
+                    }
+                }   
             }
-        }
+        }   
     }
 }
