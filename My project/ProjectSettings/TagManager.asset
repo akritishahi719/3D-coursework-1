@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - Car
+  - Motor
+  - Furniture
   layers:
   - Default
   - TransparentFX

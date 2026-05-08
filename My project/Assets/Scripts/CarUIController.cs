@@ -6,8 +6,6 @@ public class CarUIController : MonoBehaviour
     public GameObject CarCanvas;
     public GameObject panel;
     public TextMeshProUGUI detailsText;
-    //public GameObject player;
-
 
     public void ShowUI(CarData car)
     {
@@ -17,7 +15,6 @@ public class CarUIController : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        //player.GetComponent<CarUIController>().enabled = false;
 
         detailsText.text =
             "Car Name: " + car.carName + "\n" +
@@ -36,6 +33,5 @@ public class CarUIController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        //player.GetComponent<CarUIController>().enabled = false;
     }
 }
