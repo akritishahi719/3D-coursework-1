@@ -1,42 +1,30 @@
 using UnityEngine;
+using TMPro;
+using System.Collections;
 
 public class AreaMessage : MonoBehaviour
 {
     public string message;
 
-    private bool showMessage = false;
+    public TextMeshProUGUI messageText;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            showMessage = true;
+            StopAllCoroutines();
+            StartCoroutine(ShowMessage());
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    IEnumerator ShowMessage()
     {
-        if (other.CompareTag("Player"))
-        {
-            showMessage = false;
-        }
-    }
+        messageText.gameObject.SetActive(true);
 
-    private void OnGUI()
-    {
-        if (showMessage)
-        {
-            GUIStyle style = new GUIStyle();
+        messageText.text = message;
 
-            style.fontSize = 30;
-            style.normal.textColor = Color.white;
-            style.alignment = TextAnchor.UpperCenter;
+        yield return new WaitForSeconds(3f);
 
-            GUI.Label(
-                new Rect(0, 20, Screen.width, 50),
-                message,
-                style
-            );
-        }
+        messageText.gameObject.SetActive(false);
     }
 }
