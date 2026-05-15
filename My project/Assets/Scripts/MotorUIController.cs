@@ -6,7 +6,7 @@ public class MotorUIController : MonoBehaviour
     public GameObject MotorCanvas;
     public GameObject panel;
     public TextMeshProUGUI detailsText;
-
+    public ParticleSystem coinEffect;
 
     public void ShowUI(MotorData bike)
     {
@@ -33,5 +33,15 @@ public class MotorUIController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+    }
+
+    public void BuyMotor()
+    {
+        if(coinEffect != null)
+        {
+            coinEffect.Play();
+        }
+
+        Debug.Log("MotorCycle Purchased");
     }
 }

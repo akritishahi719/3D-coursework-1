@@ -6,6 +6,7 @@ public class FurUIController : MonoBehaviour
     public GameObject FurCanvas;
     public GameObject panel;
     public TextMeshProUGUI detailsText;
+    public ParticleSystem coinEffect;
 
     public void ShowUI(FurData furniture)
     {
@@ -32,5 +33,15 @@ public class FurUIController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+    }
+
+    public void BuyFur()
+    {
+        if(coinEffect != null)
+        {
+            coinEffect.Play();
+        }
+
+        Debug.Log("Furniture Purchased");
     }
 }

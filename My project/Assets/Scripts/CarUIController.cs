@@ -6,6 +6,7 @@ public class CarUIController : MonoBehaviour
     public GameObject CarCanvas;
     public GameObject panel;
     public TextMeshProUGUI detailsText;
+    public ParticleSystem coinEffect;
 
     public void ShowUI(CarData car)
     {
@@ -33,5 +34,15 @@ public class CarUIController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+    }
+
+    public void BuyCar()
+    {
+        if(coinEffect != null)
+        {
+            coinEffect.Play();
+        }
+
+        Debug.Log("Car Purchased");
     }
 }
