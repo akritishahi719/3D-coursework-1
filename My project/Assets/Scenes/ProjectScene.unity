@@ -17792,12 +17792,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78384266f4d6d8f45b4b3f9788776762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carName: 'Akriti '
-  price: $70,000
-  speed: 260km/h
-  engine: v5
+  carName: Blue Cruiser
+  price: $50,000
+  speed: 240km/h
+  engine: 2500cc
   color: blue
-  type: 'old '
+  type: Sedan
 --- !u!1001 &397250583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30921,12 +30921,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78384266f4d6d8f45b4b3f9788776762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carName: 
-  price: 
-  speed: 
-  engine: 
-  color: 
-  type: 
+  carName: Retro Mini
+  price: $28,00
+  speed: 190km/hr
+  engine: 1500cc
+  color: Green
+  type: Hatchback
 --- !u!1 &560719259
 GameObject:
   m_ObjectHideFlags: 0
@@ -36344,11 +36344,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Dream sleep bed
+  price: $1,200
+  color: Brown
+  size: king size
+  type: double bed
 --- !u!65 &583380681
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37081,12 +37081,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78384266f4d6d8f45b4b3f9788776762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carName: 
-  price: 
-  speed: 
-  engine: 
-  color: 
-  type: 
+  carName: Monster Truck X
+  price: $55,000
+  speed: 220km/hr
+  engine: 500cc
+  color: White
+  type: Off-Road Truck
 --- !u!1001 &627411752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43370,11 +43370,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: cozy single bed
+  price: $650
+  color: cream
+  size: single size
+  type: single bed
 --- !u!65 &709188130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49155,12 +49155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78384266f4d6d8f45b4b3f9788776762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carName: 'viper '
+  carName: Thunder
   price: $60,000
-  speed: 260km/h
-  engine: V8
+  speed: 320km/h
+  engine: 4000cc
   color: yellow
-  type: sport
+  type: sport car
 --- !u!1001 &760331824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54872,11 +54872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f84d7157574924ba7cf7805cc0ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorcycle_Name: 
-  price: 
-  speed: 
-  engine: 
-  color: 
+  motorcycle_Name: Blaze 900
+  price: $22,000
+  speed: 300km/hr
+  engine: 1100cc
+  color: Orange
 --- !u!1001 &795332044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55074,10 +55074,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f84d7157574924ba7cf7805cc0ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorcycle_Name: Aryan
-  price: $60,000
-  speed: 260km\h
-  engine: V8
+  motorcycle_Name: Thunder X
+  price: $18,000
+  speed: 280km\h
+  engine: 998cc
   color: black
 --- !u!4 &804582048 stripped
 Transform:
@@ -55214,11 +55214,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: smart storage cabinet
+  price: $750
+  color: white
+  size: medium
+  type: storage
 --- !u!65 &826440104
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55383,11 +55383,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Modern wardrobe
+  price: $1200
+  color: brown
+  size: large
+  type: wardrobe
 --- !u!65 &827499140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61766,11 +61766,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f84d7157574924ba7cf7805cc0ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorcycle_Name: 
-  price: 
-  speed: 
-  engine: 
-  color: 
+  motorcycle_Name: Night Hawk
+  price: $16,500
+  speed: 250km/hr
+  engine: 850cc
+  color: 'Silver '
 --- !u!1001 &927863423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86318,11 +86318,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: royal sofa
+  price: $850
+  color: brown
+  size: small
+  type: sofa
 --- !u!65 &1160957143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93753,11 +93753,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Glow corner lamp
+  price: $120
+  color: white
+  size: small
+  type: corner light
 --- !u!65 &1273144618
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93916,11 +93916,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f84d7157574924ba7cf7805cc0ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorcycle_Name: 
-  price: 
-  speed: 
-  engine: 
-  color: 
+  motorcycle_Name: Shadow Rider
+  price: $19,000
+  speed: 270km/hr
+  engine: 950cc
+  color: Green
 --- !u!1 &1284710953
 GameObject:
   m_ObjectHideFlags: 0
@@ -94291,11 +94291,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Elegant dresser
+  price: $500
+  color: brown
+  size: medium
+  type: dresser
 --- !u!65 &1309684364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -94529,11 +94529,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Night side table
+  price: '&190'
+  color: yellow
+  size: medium
+  type: bedside table
 --- !u!65 &1323890954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109809,12 +109809,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78384266f4d6d8f45b4b3f9788776762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  carName: 
-  price: 
-  speed: 
-  engine: 
-  color: 
-  type: 
+  carName: City Rider
+  price: $20,000
+  speed: 200km/hr
+  engine: 1800cc
+  color: Orange
+  type: Compact Car
 --- !u!1001 &1556954836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116803,11 +116803,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: mm mirror
+  price: $120
+  color: white
+  size: medium
+  type: mirror
 --- !u!65 &1665140797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -117734,11 +117734,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f84d7157574924ba7cf7805cc0ea32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorcycle_Name: 
-  price: 
-  speed: 
-  engine: 
-  color: 
+  motorcycle_Name: Strom GT
+  price: $20,000
+  speed: 290km/hr
+  engine: 1000cc
+  color: Red
 --- !u!1 &1733945998
 GameObject:
   m_ObjectHideFlags: 0
@@ -145832,11 +145832,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: classic coffee table
+  price: $900
+  color: white
+  size: medium
+  type: coffee table
 --- !u!65 &1866245207
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -148764,11 +148764,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Luxury corner sofa
+  price: $1,400
+  color: white
+  size: Extra large
+  type: corner sofa
 --- !u!65 &2028666290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -149324,11 +149324,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Crystal mirror
+  price: $120
+  color: silver
+  size: small
+  type: mirror
 --- !u!65 &2059353291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -156318,11 +156318,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bd8b6c7ea532f48913832074353a38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  furnitureName: 
-  price: 
-  color: 
-  size: 
-  type: 
+  furnitureName: Table
+  price: $140
+  color: white
+  size: medium
+  type: 'coffeetable '
 --- !u!1 &2141973595
 GameObject:
   m_ObjectHideFlags: 0
