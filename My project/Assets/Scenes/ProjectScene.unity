@@ -142,15 +142,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1110560525419753077, guid: 7232880492f88cd4d9624a501fc37aba, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1110560525419753077, guid: 7232880492f88cd4d9624a501fc37aba, type: 3}
-      propertyPath: m_LocalScale.y
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1110560525419753077, guid: 7232880492f88cd4d9624a501fc37aba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1110560525419753077, guid: 7232880492f88cd4d9624a501fc37aba, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1110560525419753077, guid: 7232880492f88cd4d9624a501fc37aba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16750,16 +16750,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329490639}
-  m_LocalRotation: {x: -0, y: 0.000000022351736, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -18}
+  m_LocalRotation: {x: -0, y: 0.9990699, z: -0, w: 0.043119665}
+  m_LocalPosition: {x: 0, y: 0, z: -17.999262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 164147564}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -544.943, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.85, y: 17.67}
+  m_AnchoredPosition: {x: 1.8509378, y: 17.669998}
   m_SizeDelta: {x: 255.98, y: 250.04}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &335635936
@@ -37755,8 +37755,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.7400055, y: -0.039993286}
-  m_SizeDelta: {x: -14.45, y: -13.31}
+  m_AnchoredPosition: {x: 1, y: 2.19}
+  m_SizeDelta: {x: -14.45, y: -39.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &648120505
 MonoBehaviour:
@@ -43775,7 +43775,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.5, y: 1, z: 3}
+  m_Size: {x: 3.1, y: 1.5, z: 2.2}
   m_Center: {x: 2.4, y: 0.6, z: 0}
 --- !u!1001 &710218738
 PrefabInstance:
@@ -67759,7 +67759,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962880162}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.05}
+  m_LocalPosition: {x: 0, y: 0, z: -0.001}
   m_LocalScale: {x: 0.003333335, y: 0.0033333334, z: 0.003333335}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -67768,7 +67768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.834, y: 1.602}
+  m_AnchoredPosition: {x: 2.834, y: 1.551}
   m_SizeDelta: {x: 300, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &962880165
@@ -68050,7 +68050,7 @@ GameObject:
   - component: {fileID: 969678614}
   - component: {fileID: 969678613}
   m_Layer: 5
-  m_Name: BuyButton (1)
+  m_Name: BuyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68303,8 +68303,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.85, y: 17.67}
-  m_SizeDelta: {x: 255.98, y: 250.04}
+  m_AnchoredPosition: {x: 1.85, y: 19.31}
+  m_SizeDelta: {x: 255.98, y: 238}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &977508690
 GameObject:
@@ -76557,7 +76557,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126376917}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.006}
+  m_LocalPosition: {x: 0, y: 0, z: -0.098}
   m_LocalScale: {x: 0.0025000013, y: 0.0033333334, z: 0.0025000013}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -76566,7 +76566,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.427, y: 2}
+  m_AnchoredPosition: {x: 0.427, y: 1.87}
   m_SizeDelta: {x: 300, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126376920
@@ -95615,8 +95615,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.55, y: 3.62}
-  m_SizeDelta: {x: 300, y: 350}
+  m_AnchoredPosition: {x: 0.839, y: 2.4618}
+  m_SizeDelta: {x: 300, y: 353.2839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371003510
 MonoBehaviour:
@@ -97413,7 +97413,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461610092}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.047}
   m_LocalScale: {x: 0.003333335, y: 0.005, z: 0.003333335}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -97422,7 +97422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.06, y: 2.6}
+  m_AnchoredPosition: {x: 2.06, y: 2.06}
   m_SizeDelta: {x: 300, y: 350}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461610095
@@ -103471,7 +103471,7 @@ GameObject:
   - component: {fileID: 1492112571}
   - component: {fileID: 1492112570}
   m_Layer: 5
-  m_Name: BuyButton (2)
+  m_Name: BuyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103541,7 +103541,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 187856647}
+      - m_Target: {fileID: 1627717577}
         m_TargetAssemblyTypeName: CarUIController, Assembly-CSharp
         m_MethodName: BuyCar
         m_Mode: 1
@@ -103634,7 +103634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2242959541117993310, guid: 1cc7753ad8e096d4c8b059687625cdfa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 31.930359
+      value: 31.98
       objectReference: {fileID: 0}
     - target: {fileID: 2242959541117993310, guid: 1cc7753ad8e096d4c8b059687625cdfa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -133775,7 +133775,7 @@ GameObject:
   - component: {fileID: 1768092559}
   - component: {fileID: 1768092558}
   m_Layer: 5
-  m_Name: BuyButton (4)
+  m_Name: 'BuyButton '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133845,7 +133845,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 187856647}
+      - m_Target: {fileID: 942004984}
         m_TargetAssemblyTypeName: CarUIController, Assembly-CSharp
         m_MethodName: BuyCar
         m_Mode: 1
@@ -146345,7 +146345,7 @@ GameObject:
   - component: {fileID: 1893658619}
   - component: {fileID: 1893658618}
   m_Layer: 5
-  m_Name: BuyButton (3)
+  m_Name: BuyButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146415,7 +146415,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 187856647}
+      - m_Target: {fileID: 615743511}
         m_TargetAssemblyTypeName: CarUIController, Assembly-CSharp
         m_MethodName: BuyCar
         m_Mode: 1
