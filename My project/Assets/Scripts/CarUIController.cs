@@ -33,7 +33,7 @@ public class CarUIController : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
+        
     }
 
     public void BuyCar()
